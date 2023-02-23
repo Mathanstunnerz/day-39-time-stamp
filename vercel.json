@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "./date-time.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/date-time.js"
+      }
+    ]
+  }
